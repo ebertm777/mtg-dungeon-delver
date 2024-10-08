@@ -21,10 +21,10 @@ export const Dungeon = styled.div`
 `;
 
 export const Entrance = styled.div`
-  width: 362px;
-  height: 85px;
+  width: 359px;
+  height: 81px;
   margin-left: 40px;
-  margin-top: 93px;
+  margin-top: 92px;
   cursor: pointer;
 `;
 
@@ -34,17 +34,19 @@ export const SecondFloor = styled.div`
   display: flex;
   flex-direction: row;
   margin-left: 40px;
-  margin-top: 9px;
+  margin-top: 15px;
 `;
 
 export const GoblinLair = styled.div`
-  width: 178px;
+  width: 170px;
+  height: 102px;
   cursor: pointer;
 `;
 
 export const MineTunnels = styled.div`
-  width: 178px;
-  margin-left: 6px;
+  width: 170px;
+  height: 102px;
+  margin-left: 17px;
   cursor: pointer;
 `;
 
@@ -58,26 +60,26 @@ export const ThirdFloor = styled.div`
 `;
 
 export const Storeroom = styled.div`
-  width: 107px;
+  width: 100px;
   cursor: pointer;
 `;
 
 export const DarkPool = styled.div`
-  width: 130px;
+  width: 122px;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 17px;
 `;
 
 export const FungiCavern = styled.div`
-  width: 109px;
+  width: 100px;
   cursor: pointer;
-  margin-left: 9px;
+  margin-left: 17px;
 `;
 
 export const TempleOfDumathoin = styled.div`
   width: 362px;
-  height: 81px;
+  height: 76px;
   cursor: pointer;
   margin-left: 40px;
-  margin-top: 10px;
+  margin-top: 8px;
 `;

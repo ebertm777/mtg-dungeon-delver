@@ -14,8 +14,8 @@ const Main = () => {
   const getRoomStyle = (room) => {
     return room === activeRoom
       ? {
-          backgroundColor: "rgb(212,175,55)",
-          opacity: 0.4,
+          backgroundColor: "rgb(73, 235, 50, 0.4)",
+          border: "3px solid black"
         }
       : {};
   };
