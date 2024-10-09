@@ -11,9 +11,9 @@ const Main = () => {
   const getRoomStyle = (room) => {
     return room === activeRoom
       ? {
-          backgroundColor: "rgba(73, 235, 50, 0.4)",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
           border: "3px solid black",
-          animation: "borderAnimation 1s infinite",
+          animation: "borderAnimation 10s infinite",
         }
       : {};
   };
