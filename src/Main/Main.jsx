@@ -2,20 +2,18 @@ import React, { useState } from "react";
 import * as S from "./styles";
 
 const Main = () => {
-  // state to track active room
   const [activeRoom, setActiveRoom] = useState("");
 
-  // Function to handle room click
   const handleRoomClick = (room) => {
-    setActiveRoom(room);
+    setActiveRoom((prevRoom) => (prevRoom === room ? "" : room));
   };
 
-  // Conditionally apply styles based on activeRoom
   const getRoomStyle = (room) => {
     return room === activeRoom
       ? {
-          backgroundColor: "rgb(73, 235, 50, 0.4)",
-          border: "3px solid black"
+          backgroundColor: "rgba(73, 235, 50, 0.4)",
+          border: "3px solid black",
+          animation: "borderAnimation 1s infinite",
         }
       : {};
   };

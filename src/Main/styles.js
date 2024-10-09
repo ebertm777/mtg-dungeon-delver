@@ -8,6 +8,28 @@ export const Container = styled.div`
   align-items: center;
   padding-left: 4px;
   padding-right: 4px;
+
+  @keyframes borderAnimation {
+  0% {
+    border-color: #008040; /* Initial color */
+  }
+  25% {
+    border-color: #ffff00; /* Initial color */
+  }
+  50% {
+    border-color: #ff3300; /* Middle color */
+  }
+  75% {
+    border-color: #ff4d94; /* Middle color */
+  }
+  100% {
+    border-color: #1a53ff; /* Final color */
+  }
+}
+
+.animatedBorder {
+  animation: borderAnimation 1s infinite; /* Duration and infinite loop */
+}
 `;
 
 export const Dungeon = styled.div`
